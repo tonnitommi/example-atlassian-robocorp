@@ -1,6 +1,10 @@
 tasks:
-  Run all tasks:
-    shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
+  Create Issue:
+    robotTaskName: Create Issue
+  Get Issue:
+    robotTaskName: Get Issue
+  List Issue Types:
+    robotTaskName: List Issue Types
 
 condaConfigFile: conda.yaml
 artifactsDir: output
